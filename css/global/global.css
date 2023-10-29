@@ -3,7 +3,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #111;
 }
-h1,ul,p{
+h1,h2,h3,h4,ul,p{
     margin: 0px;
 }
 
@@ -19,4 +19,10 @@ a{
 img{
     max-width: 100%;
     display: block;
+    
+}
+
+/*apenas imagens que tiver o final jpg que terá borda arredondada*/
+img [src$=".jpg"] {
+    border-radius: 4px;
 }
